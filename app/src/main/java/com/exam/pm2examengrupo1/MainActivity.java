@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Enlazar elementos de la interfaz (XML)
+        // Enlazamos los elementos de la interfaz (XML)
         imgFoto = findViewById(R.id.imgFoto);
         etNombre = findViewById(R.id.etNombre);
         etTelefono = findViewById(R.id.etTelefono);
