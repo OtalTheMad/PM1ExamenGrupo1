@@ -20,7 +20,10 @@
             android:value="AIzaSyAR8zID4fxWT9lQcCsZsVfhrX5Dwifbm-M" />
 
         <activity
-            android:name="com.exam.pm2examengrupo1.MapsActivity"
+            android:name=".ContactListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
